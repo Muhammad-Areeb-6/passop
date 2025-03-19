@@ -1,12 +1,25 @@
-# React + Vite
+# passop a simple password manger
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 1. clone the repo using
+```
+git clone https://github.com/Muhammad-Areeb-6/passop.git
+```
 
-Currently, two official plugins are available:
+### 2. run command to install nodemodules
+```
+npm install
+```
+If you are using the database then make a 
+**.env** file and save your **MONGO_URI** in it 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Disclaimer**: It is not a production ready app so don't deploy it.
 
-## Expanding the ESLint configuration
+or
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you are using the localstorage then comment the database lines and uncomment the localstorage code lines
+
+### 3. finlly run the 
+```
+npm run dev
+```
+and enjoy.
